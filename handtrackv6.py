@@ -1,11 +1,4 @@
-"""
-Hand Mouse Control
-- Click: pollice + indice < 0.09
-- Drag: click mantenuto > 1 sec
-- Raggio di azione limitato per raggiungere estremi dello schermo
-- Visualizza landmarks e scritte sullo schermo
-- Sempre on top
-"""
+#coded with <3 by @piskevalee-cpu
 
 import cv2
 import mediapipe as mp
@@ -132,3 +125,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
